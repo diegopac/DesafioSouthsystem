@@ -7,7 +7,9 @@ A aplicação pode ser executada em ambientes Windows e Linux, conforme passos a
 
 * Configurar a variavel de ambiente HOMEPATH e os sub-diretorios "data/in" e "data/out" onde irão constar os arquivos de entrada e saída antes de executar a aplicação.
 
-* Compilar pelo Maven (pom.xml)
+* Compilar pelo Maven (pom.xml):
+
+	mvn clean install
 
 * Executando em ambiente Windows:
 
